@@ -1,4 +1,4 @@
-src=ee #the source language code
+"""src=ee #the source language code
 tgt=fr #the target langauge code
 name=lafandEeFr20  #the name of the task as used in the createconfig.sh
 cd joeynmt;
@@ -6,3 +6,4 @@ mkdir -p /content/gdrive/MyDrive/Masakhane/lafand/lafand-mt/joeytrainer/joeynmt/
 
 #srun -p batch --ntasks 1 --gpus-per-task 1 python3 -m joeynmt train configs/transformer_${name}_${src}_${tgt}.yaml 
 python3 -m joeynmt train configs/transformer_${name}_${src}_${tgt}.yaml 
+"""
