@@ -7,8 +7,8 @@
 #10k = vocabulary size literal
 
 #train sentencepiece model of 10000 vocaulary over fr-wol
-bash scripts/train_sentencepiece.sh fr wol /content/gdrive/MyDrive/masakhane/lafand/lafand-mt/joeytrainer/data/frwol/JW/train /content/gdrive/MyDrive/masakhane/lafand/lafand-mt/joeytrainer/data/frwol/spmodel 10000 10k
+bash scripts/train_sentencepiece.sh fr ee /content/gdrive/MyDrive/Masakhane/lafand/lafand-mt/joeytrainer/data/free/JW/train /content/gdrive/MyDrive/Masakhane/lafand/lafand-mt/joeytrainer/data/free/spmodel 10000 10k
 #train sentence piece of 20000 vocaulary over fr-wol
-bash scripts/train_sentencepiece.sh fr wol /content/gdrive/MyDrive/masakhane/lafand/lafand-mt/joeytrainer/data/frwol/JW/train /content/gdrive/MyDrive/masakhane/lafand/lafand-mt/joeytrainer/data/frwol/spmodel 20000 20k
+bash scripts/train_sentencepiece.sh fr ee /content/gdrive/MyDrive/Masakhane/lafand/lafand-mt/joeytrainer/data/free/JW/train /content/gdrive/MyDrive/Masakhane/lafand/lafand-mt/joeytrainer/data/free/spmodel 20000 20k
 #train sentence piece of 40000 vocaulary over fr-wol
-bash scripts/train_sentencepiece.sh fr wol /content/gdrive/MyDrive/masakhane/lafand/lafand-mt/joeytrainer/data/frwol/JW/train /content/gdrive/MyDrive/masakhane/lafand/lafand-mt/joeytrainer/data/frwol/spmodel 40000 40k
+bash scripts/train_sentencepiece.sh fr ee /content/gdrive/MyDrive/Masakhane/lafand/lafand-mt/joeytrainer/data/free/JW/train /content/gdrive/MyDrive/Masakhane/lafand/lafand-mt/joeytrainer/data/free/spmodel 40000 40k
